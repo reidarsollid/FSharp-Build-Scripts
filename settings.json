@@ -1,0 +1,9 @@
+{
+    "editor.rulers": [
+        120
+    ],
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "OpenDyslexicMono, Consolas, 'Courier New', monospace",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Monokai Dimmed",
+}
