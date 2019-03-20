@@ -31,13 +31,13 @@ fi
 #we need FAKE to process our build scripts
 if [[ ! -f "$FAKE" ]]; then
   echo FAKE not found.. Installing..
-  $RUNTIME "$NUGET" "install" "FAKE" "-OutputDirectory" "tools" "-Version" "3.26.3" "-ExcludeVersion" "-Prerelease"
+  $RUNTIME "$NUGET" "install" "FAKE" "-OutputDirectory" "tools" "-Version" "5.8.4" "-ExcludeVersion" "-Prerelease"
 fi
 
 #we need NUnit to run NaturalSpec and NUnit
 if [[ ! -f "$NUNIT" ]]; then
   echo NUnit not found.. Installing..
-  $RUNTIME "$NUGET" "install" "NUnit.Runners" "-OutputDirectory" "tools" "-Version" "2.6.3" "-ExcludeVersion" "-Prerelease"
+  $RUNTIME "$NUGET" "install" "NUnit.Runners" "-OutputDirectory" "tools" "-Version" "3.11.0" "-ExcludeVersion" "-Prerelease"
 fi
 
 
